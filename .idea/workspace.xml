@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson3/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/part3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/part5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/T1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/T1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="part5_1">
+      <change afterPath="$PROJECT_DIR$/lesson3/part6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/part5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/part5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -57,29 +55,12 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.part3">
-    <configuration name="03" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="T1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.part5">
     <configuration name="homewok2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="T1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,20 +149,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="part5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/part5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.03" />
       <item itemvalue="Python.part1" />
       <item itemvalue="Python.homewok2" />
       <item itemvalue="Python.part2" />
       <item itemvalue="Python.part3" />
+      <item itemvalue="Python.part5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part5" />
         <item itemvalue="Python.part3" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.homewok2" />
         <item itemvalue="Python.part1" />
-        <item itemvalue="Python.03" />
       </list>
     </recent_temporary>
   </component>
@@ -216,12 +219,25 @@
       <workItem from="1582123279279" duration="156000" />
       <workItem from="1582123511190" duration="30000" />
       <workItem from="1582123734049" duration="6294000" />
-      <workItem from="1582344271284" duration="2882000" />
+      <workItem from="1582344271284" duration="8273000" />
+      <workItem from="1583109763700" duration="310000" />
     </task>
+    <task id="LOCAL-00001" summary="part5_1">
+      <created>1582554532812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582554532812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="part5_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="part5_1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582554449867">
@@ -232,10 +248,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="163" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582208900719" />
-    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1582129109371">
+    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1582554532452">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582129109371" />
+    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582554532452" />
     <state width="828" height="466" key="DebuggerActiveHint" timestamp="1582284610920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -277,10 +293,10 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="244" y="82" key="SettingsEditor/0.23.1440.840@0.23.1440.840" timestamp="1581870438798" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582469581569">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582556062919">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582469581569" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582556062919" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,6 +316,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/T1$part2.coverage" NAME="part2 Coverage Results" MODIFIED="1582209800982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
+    <SUITE FILE_PATH="coverage/T1$part5.coverage" NAME="part5 Coverage Results" MODIFIED="1582555639049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
     <SUITE FILE_PATH="coverage/T1$part3.coverage" NAME="part3 Coverage Results" MODIFIED="1582285854132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
   </component>
 </project>
