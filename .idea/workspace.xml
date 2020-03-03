@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="part5_1">
-      <change afterPath="$PROJECT_DIR$/lesson3/part6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part3/Adminlogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part3/CreateCouponApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part3/RequestUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part3/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part3/func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/part5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/part5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <recent name="$PROJECT_DIR$/lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part5">
+  <component name="RunManager" selected="Python.part2 (1)">
     <configuration name="homewok2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="T1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="part1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="part2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="T1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,12 +93,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson4/part2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,19 +174,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.part1" />
       <item itemvalue="Python.homewok2" />
       <item itemvalue="Python.part2" />
       <item itemvalue="Python.part3" />
       <item itemvalue="Python.part5" />
+      <item itemvalue="Python.part2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part2 (1)" />
         <item itemvalue="Python.part5" />
         <item itemvalue="Python.part3" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.homewok2" />
-        <item itemvalue="Python.part1" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +222,8 @@
       <workItem from="1582123511190" duration="30000" />
       <workItem from="1582123734049" duration="6294000" />
       <workItem from="1582344271284" duration="8273000" />
-      <workItem from="1583109763700" duration="310000" />
+      <workItem from="1583109763700" duration="3219000" />
+      <workItem from="1583155892365" duration="8759000" />
     </task>
     <task id="LOCAL-00001" summary="part5_1">
       <created>1582554532812</created>
@@ -229,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582554532812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part5_1">
+      <created>1583118846922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583118846922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,59 +254,64 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582554449867" />
-    <state x="483" y="163" key="#xdebugger.evaluate" timestamp="1582208900719">
+    <state x="485" y="163" width="725" height="602" key="#xdebugger.evaluate" timestamp="1583200081645">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="483" y="163" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582208900719" />
-    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1582554532452">
+    <state x="485" y="163" width="725" height="602" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1583200081645" />
+    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1583161176340">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582554532452" />
+    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583161176340" />
     <state width="828" height="466" key="DebuggerActiveHint" timestamp="1582284610920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="828" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1582284610920" />
     <state width="826" height="466" key="DebuggerActiveHint/0.23.1440.840@0.23.1440.840" timestamp="1582208723763" />
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom" timestamp="1582285854168">
+    <state width="1398" height="302" key="GridCell.Tab.0.bottom" timestamp="1583203647035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582285854168" />
-    <state width="1398" height="302" key="GridCell.Tab.0.center" timestamp="1582285854167">
+    <state width="1398" height="302" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583203647035" />
+    <state width="1398" height="302" key="GridCell.Tab.0.center" timestamp="1583203647033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582285854167" />
-    <state width="1398" height="302" key="GridCell.Tab.0.left" timestamp="1582285854166">
+    <state width="1398" height="302" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583203647033" />
+    <state width="1398" height="302" key="GridCell.Tab.0.left" timestamp="1583203647033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582285854166" />
-    <state width="1398" height="302" key="GridCell.Tab.0.right" timestamp="1582285854167">
+    <state width="1398" height="302" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583203647033" />
+    <state width="1398" height="302" key="GridCell.Tab.0.right" timestamp="1583203647034">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582285854167" />
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1582285854173">
+    <state width="1398" height="302" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583203647034" />
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1583203647037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582285854173" />
-    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1582285854169">
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583203647037" />
+    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1583203647036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582285854169" />
-    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1582285854168">
+    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583203647036" />
+    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1583203647035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582285854168" />
-    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1582285854171">
+    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583203647035" />
+    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1583203647036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582285854171" />
-    <state x="244" y="82" key="SettingsEditor" timestamp="1581870438798">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583203647036" />
+    <state x="244" y="63" key="SettingsEditor" timestamp="1583203330855">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="244" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583203330855" />
     <state x="244" y="82" key="SettingsEditor/0.23.1440.840@0.23.1440.840" timestamp="1581870438798" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582556062919">
+    <state x="389" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583130367136">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582556062919" />
+    <state x="389" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1583130367136" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583203955214">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583203955214" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,10 +326,16 @@
           <line>16</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson4/part2.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/T1$part2__1_.coverage" NAME="part2 (1) Coverage Results" MODIFIED="1583200064310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4" />
     <SUITE FILE_PATH="coverage/T1$part2.coverage" NAME="part2 Coverage Results" MODIFIED="1582209800982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
     <SUITE FILE_PATH="coverage/T1$part5.coverage" NAME="part5 Coverage Results" MODIFIED="1582555639049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
     <SUITE FILE_PATH="coverage/T1$part3.coverage" NAME="part3 Coverage Results" MODIFIED="1582285854132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
