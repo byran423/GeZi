@@ -12,11 +12,6 @@ class RequestUtil(object):
 	def __init__(self):
 		self.headers = headers
 
-	def update_headers(self, add_headers={}):
-		self.headers.update(add_headers)
-
-
-
 	def send_request(self):
 		"""
 		None
@@ -24,7 +19,6 @@ class RequestUtil(object):
 		"""
 		self.url = self.compose_url()
 		json_body = obj_to_json(self.body) if self.body else None
-		print_json(self.body.__dict__)
 		resp_act = self.__send_request(data=json_body)
 		self.resp = json_to_obj(resp_act)
 		return self
@@ -32,7 +26,7 @@ class RequestUtil(object):
 
 	def compose_url(self, json_param=None):
 		"""拼接完成host+url+param"""
-		url = self.host.rstrip('/') + "/" + self.url.lstrip('/')
+		url = self.host.rstrip('/') + '/' + self.url.lstrip('/')
 		return url
 
 

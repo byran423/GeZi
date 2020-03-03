@@ -35,6 +35,11 @@ class OrderManageCreate(RequestUtil):
 			self.type = 0
 			self.useType = 0
 			self.code = None
+			self.count = None  # 数量
+			self.id = None  # None
+			self.memberLevel = None  # 可领取的会员类型：0->无限时
+			self.receiveCount = None  # 领取数量
+			self.useCount = None  # 已使用数量
 			super(OrderManageCreate.Body, self).__init__(**kwargs)
 
 		class SmsCouponProductCategoryRelation(BaseObj):
@@ -47,7 +52,7 @@ class OrderManageCreate(RequestUtil):
 				self.productCategoryName = None
 				super(OrderManageCreate.Body.SmsCouponProductCategoryRelation, self).__init__(**kwargs)
 
-		class SmsCouponproductRelation(BaseObj):
+		class SmsCouponProductRelation(BaseObj):
 			""" None"""
 			def __init__(self,**kwargs):
 				self.couponId = None
@@ -55,7 +60,7 @@ class OrderManageCreate(RequestUtil):
 				self.productId = None
 				self.productName = None
 				self.productSn = None
-				super(OrderManageCreate.Body.SmsCouponproductRelation, self).__init__(**kwargs)
+				super(OrderManageCreate.Body.SmsCouponProductRelation, self).__init__(**kwargs)
 
 	class Resp(object):
 		def __init__(self):
@@ -72,7 +77,7 @@ class OrderManageCreate(RequestUtil):
 
 
 api_obj = OrderManageCreate().set_token().send_request()
-print(api_obj.resp.__dict__)
+# print(api_obj.resp.__dict__)
 
 
 

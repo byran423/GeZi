@@ -1,4 +1,7 @@
+
+
 from lesson4.part4.RequestUtil import RequestUtil
+
 
 class Adminlogin(RequestUtil):
 	def __init__(self,**kwargs):
@@ -13,8 +16,8 @@ class Adminlogin(RequestUtil):
 	class Body(object):
 		def __init__(self, **kwargs):
 
-			self.username = "admin"
-			self.password = "macro123"
+			self.username = None
+			self.password = None
 
 	class Resp(object):
 		def __init__(self):

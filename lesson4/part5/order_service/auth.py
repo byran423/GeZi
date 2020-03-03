@@ -3,7 +3,7 @@ def get_auth():
 	login_api_obj = Adminlogin().send_request()
 
 	return_data = login_api_obj.resp.data
-	return return_data.tokenHead + ' ' + return_data.token
+	return return_data.tokenHead + " " + return_data.token
 
 
 auth_token = get_auth()

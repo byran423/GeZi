@@ -1,7 +1,6 @@
 
 import requests
 from lesson4.part3.func import *
-# from lesson4.part5.common.RequestUtil import RequestUtil
 
 
 headers = {'Content-Type': 'application/json',
@@ -29,7 +28,6 @@ class RequestUtil(object):
 	def compose_url(self, json_param=None):
 		"""拼接完成host+url+param"""
 		url = self.host.rstrip('/') + "/" + self.url.lstrip('/')
-		print(url)
 		return url
 
 

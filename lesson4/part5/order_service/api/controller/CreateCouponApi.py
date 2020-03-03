@@ -21,27 +21,30 @@ class CreateCouponApi(BaseOrderManageService):
 
 
 	class Body(BaseObj):
-		def __init__(self, **kwargs):
-			self.amount = 299
-			self.enableTime = "2019-11-30T16:00:00.000Z"
-			self.minPoint = 10
-			self.name = "测试优惠券"
-			self.note = "备注内容"
-			self.perLimit = 1
-			self.platform = 0.1
-			self.productCategoryRelationList = []
-			self.productRelationList = []
-			self.publishCount = 1000
-			self.startTime = "2019-11-15T16:00:00,000Z"
-			self.type = 0
-			self.useType = 0
+		def __init__(self,**kwargs):
+			self.amount = None
+			self.enableTime = None
+			self.minPoint = None
+			self.name = None
+			self.note = None
+			self.perLimit = None
+			self.platform = None
+			# self.productCategoryRelationList = []
+			self.productCategoryRelationList = [self.SmsCouponProductCategoryRelation()]
+			# self.productRelationList = []
+			self.productRelationList = [self.SmsCouponproductRelation()]
+			self.publishCount = None
+			self.startTime = None
+			self.type = None
+			self.useType = None
 			self.code = None
-			self.count = None  # 数量
-			self.id = None  # None
-			self.memberLevel = None  # 可领取的会员类型：0->无限时
-			self.receiveCount = None  # 领取数量
-			self.useCount = None  # 已使用数量
+			self.count = None
+			self.id = None
+			self.memberLevel = None
+			self.receiveCount = None
+			self.useCount = None
 			super(CreateCouponApi.Body, self).__init__(**kwargs)
+
 
 		class SmsCouponProductCategoryRelation(BaseObj):
 			""" None"""
@@ -52,6 +55,7 @@ class CreateCouponApi(BaseOrderManageService):
 				self.productCategoryId = None
 				self.productCategoryName = None
 				super(CreateCouponApi.Body.SmsCouponProductCategoryRelation, self).__init__(**kwargs)
+
 
 		class SmsCouponproductRelation(BaseObj):
 			""" None"""
@@ -73,7 +77,7 @@ class CreateCouponApi(BaseOrderManageService):
 
 
 # api_obj = CreateCouponApi().set_token().send_request()
-# print(str(api_obj.resp.__dict__))
+# print(api_obj.resp.__dict__)
 
 
 
