@@ -2,16 +2,17 @@
 
 
 from lesson4.base import BaseObj
+from lesson4.part4.BaseOrderManageService import BaseOrderManageService
 from  lesson4.part3.auth import auth_token
 from lesson4.part3.RequestUtil import RequestUtil
 
 
 
-class OrderManageCreate(RequestUtil):
+class CreateCouponApi(BaseOrderManageService):
 	""" """
 	def __init__(self, **kwargs):
 		super().__init__()
-		self.host = "http://144.34.200.237:8080/"
+		# self.host = "http://144.34.200.237:8080/"
 		self.info = "添加优惠券"
 		self.url = "/coupon/create"
 		self.method = "post"
@@ -35,7 +36,7 @@ class OrderManageCreate(RequestUtil):
 			self.type = 0
 			self.useType = 0
 			self.code = None
-			super(OrderManageCreate.Body, self).__init__(**kwargs)
+			super(CreateCouponApi.Body, self).__init__(**kwargs)
 
 		class SmsCouponProductCategoryRelation(BaseObj):
 			""" None"""
@@ -45,7 +46,7 @@ class OrderManageCreate(RequestUtil):
 				self.parentCategoryName = None
 				self.productCategoryId = None
 				self.productCategoryName = None
-				super(OrderManageCreate.Body.SmsCouponProductCategoryRelation, self).__init__(**kwargs)
+				super(CreateCouponApi.Body.SmsCouponProductCategoryRelation, self).__init__(**kwargs)
 
 		class SmsCouponproductRelation(BaseObj):
 			""" None"""
@@ -55,23 +56,18 @@ class OrderManageCreate(RequestUtil):
 				self.productId = None
 				self.productName = None
 				self.productSn = None
-				super(OrderManageCreate.Body.SmsCouponproductRelation, self).__init__(**kwargs)
+				super(CreateCouponApi.Body.SmsCouponproductRelation, self).__init__(**kwargs)
 
 	class Resp(object):
 		def __init__(self):
-			super(OrderManageCreate.Resp, self).__init__()
+			super(CreateCouponApi.Resp, self).__init__()
 			self.code = None
 			self.data = None
 			self.message = None
 
 
-	def set_token(self):
-		self.update_headers(dict(Authorization=auth_token))
-		return self
 
-
-
-api_obj = OrderManageCreate().set_token().send_request()
+api_obj = CreateCouponApi().set_token().send_request()
 print(api_obj.resp.__dict__)
 
 

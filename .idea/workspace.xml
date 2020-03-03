@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="part5_1">
-      <change afterPath="$PROJECT_DIR$/lesson4/part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/part3/Adminlogin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/part3/CreateCouponApi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/part3/RequestUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/part3/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/part3/func.py" afterDir="false" />
+    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="lesson4 part2 完结&#10;lesson4 part3_1">
+      <change afterPath="$PROJECT_DIR$/lesson4/part4/Adminlogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part4/BaseOrderManageService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part4/CreateCouponApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part4/RequestUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part4/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/part4/func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/part3/Adminlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part3/Adminlogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/part3/CreateCouponApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part3/CreateCouponApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/part3/RequestUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part3/RequestUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/part3/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part3/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/part3/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part3/func.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson4/part4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -59,11 +63,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson4/part4" />
       <recent name="$PROJECT_DIR$/lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part2 (1)">
-    <configuration name="homewok2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CreateCouponApi">
+    <configuration name="Adminlogin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="T1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,12 +76,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson4/part3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/homewok2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson4/part3/Adminlogin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CreateCouponApi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson4/part3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson4/part3/CreateCouponApi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="auth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson4/part3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson4/part3/auth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,50 +148,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson4/part2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="part2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="T1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/part2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="part3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="T1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/part3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,19 +179,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.homewok2" />
-      <item itemvalue="Python.part2" />
-      <item itemvalue="Python.part3" />
       <item itemvalue="Python.part5" />
       <item itemvalue="Python.part2 (1)" />
+      <item itemvalue="Python.CreateCouponApi" />
+      <item itemvalue="Python.auth" />
+      <item itemvalue="Python.Adminlogin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CreateCouponApi" />
+        <item itemvalue="Python.Adminlogin" />
+        <item itemvalue="Python.auth" />
         <item itemvalue="Python.part2 (1)" />
         <item itemvalue="Python.part5" />
-        <item itemvalue="Python.part3" />
-        <item itemvalue="Python.part2" />
-        <item itemvalue="Python.homewok2" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +228,7 @@
       <workItem from="1582123734049" duration="6294000" />
       <workItem from="1582344271284" duration="8273000" />
       <workItem from="1583109763700" duration="3219000" />
-      <workItem from="1583155892365" duration="8759000" />
+      <workItem from="1583155892365" duration="12994000" />
     </task>
     <task id="LOCAL-00001" summary="part5_1">
       <created>1582554532812</created>
@@ -239,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583118846922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson4 part2 完结&#10;lesson4 part3_1">
+      <created>1583204479037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583204479037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,58 +259,59 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part5_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="part5_1" />
+    <MESSAGE value="lesson4 part2 完结&#10;lesson4 part3_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson4 part2 完结&#10;lesson4 part3_1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582554449867">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582554449867" />
-    <state x="485" y="163" width="725" height="602" key="#xdebugger.evaluate" timestamp="1583200081645">
+    <state x="485" y="163" width="725" height="602" key="#xdebugger.evaluate" timestamp="1583213724648">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="485" y="163" width="725" height="602" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1583200081645" />
-    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1583161176340">
+    <state x="485" y="163" width="725" height="602" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1583213724648" />
+    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1583204478772">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583161176340" />
+    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583204478772" />
     <state width="828" height="466" key="DebuggerActiveHint" timestamp="1582284610920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="828" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1582284610920" />
     <state width="826" height="466" key="DebuggerActiveHint/0.23.1440.840@0.23.1440.840" timestamp="1582208723763" />
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom" timestamp="1583203647035">
+    <state width="1398" height="302" key="GridCell.Tab.0.bottom" timestamp="1583214332531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583203647035" />
-    <state width="1398" height="302" key="GridCell.Tab.0.center" timestamp="1583203647033">
+    <state width="1398" height="302" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583214332531" />
+    <state width="1398" height="302" key="GridCell.Tab.0.center" timestamp="1583214332529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583203647033" />
-    <state width="1398" height="302" key="GridCell.Tab.0.left" timestamp="1583203647033">
+    <state width="1398" height="302" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583214332529" />
+    <state width="1398" height="302" key="GridCell.Tab.0.left" timestamp="1583214332529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583203647033" />
-    <state width="1398" height="302" key="GridCell.Tab.0.right" timestamp="1583203647034">
+    <state width="1398" height="302" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583214332529" />
+    <state width="1398" height="302" key="GridCell.Tab.0.right" timestamp="1583214332530">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583203647034" />
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1583203647037">
+    <state width="1398" height="302" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583214332530" />
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1583214332533">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583203647037" />
-    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1583203647036">
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583214332533" />
+    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1583214332532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583203647036" />
-    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1583203647035">
+    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583214332532" />
+    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1583214332531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583203647035" />
-    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1583203647036">
+    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583214332531" />
+    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1583214332532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583203647036" />
+    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583214332532" />
     <state x="244" y="63" key="SettingsEditor" timestamp="1583203330855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -326,18 +339,16 @@
           <line>16</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson4/part2.py</url>
-          <line>150</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/T1$CreateCouponApi.coverage" NAME="CreateCouponApi Coverage Results" MODIFIED="1583214194262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4/part3" />
+    <SUITE FILE_PATH="coverage/T1$auth.coverage" NAME="auth Coverage Results" MODIFIED="1583214036280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4/part3" />
     <SUITE FILE_PATH="coverage/T1$part2__1_.coverage" NAME="part2 (1) Coverage Results" MODIFIED="1583200064310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4" />
     <SUITE FILE_PATH="coverage/T1$part2.coverage" NAME="part2 Coverage Results" MODIFIED="1582209800982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
     <SUITE FILE_PATH="coverage/T1$part5.coverage" NAME="part5 Coverage Results" MODIFIED="1582555639049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
     <SUITE FILE_PATH="coverage/T1$part3.coverage" NAME="part3 Coverage Results" MODIFIED="1582285854132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
+    <SUITE FILE_PATH="coverage/T1$Adminlogin.coverage" NAME="Adminlogin Coverage Results" MODIFIED="1583214146513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4/part3" />
   </component>
 </project>
