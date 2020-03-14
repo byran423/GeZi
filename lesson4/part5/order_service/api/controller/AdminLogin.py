@@ -3,7 +3,7 @@
 from lesson4.part4.RequestUtil import RequestUtil
 
 
-class Adminlogin(RequestUtil):
+class AdminLogin(RequestUtil):
 	def __init__(self,**kwargs):
 		super().__init__()
 		self.info = "登录以后返回token"
@@ -15,13 +15,12 @@ class Adminlogin(RequestUtil):
 
 	class Body(object):
 		def __init__(self, **kwargs):
-
 			self.username = None
 			self.password = None
 
 	class Resp(object):
 		def __init__(self):
-			super(Adminlogin.Resp, self).__init__()
+			super(AdminLogin.Resp, self).__init__()
 			self.code = None
 			self.data = self.Token()
 			self.message = None

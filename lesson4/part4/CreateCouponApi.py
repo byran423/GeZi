@@ -28,7 +28,7 @@ class CreateCouponApi(BaseOrderManageService):
 			self.name = "测试优惠券"
 			self.note = "备注内容"
 			self.perLimit = 1
-			self.platform = 0.1
+			self.platform = 0
 			self.productCategoryRelationList = []
 			self.productRelationList = []
 			self.publishCount = 1000

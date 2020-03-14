@@ -1,6 +1,6 @@
 
 
-
+import requests,json
 from lesson4.base import BaseObj
 from lesson4.part4.BaseOrderManageService import BaseOrderManageService
 # from  lesson4.part3.auth import auth_token
@@ -32,7 +32,7 @@ class CreateCouponApi(BaseOrderManageService):
 			# self.productCategoryRelationList = []
 			self.productCategoryRelationList = [self.SmsCouponProductCategoryRelation()]
 			# self.productRelationList = []
-			self.productRelationList = [self.SmsCouponproductRelation()]
+			self.productRelationList = [self.SmsCouponProductRelation()]
 			self.publishCount = None
 			self.startTime = None
 			self.type = None
@@ -51,13 +51,13 @@ class CreateCouponApi(BaseOrderManageService):
 			def __init__(self,**kwargs):
 				self.couponId = None
 				self.id: None
-				self.parentCategoryName = None
-				self.productCategoryId = None
-				self.productCategoryName = None
+				self.parentCategoryName = None # 父分类名称
+				self.productCategoryId = None# None
+				self.productCategoryName = None  # 产品分类名称
 				super(CreateCouponApi.Body.SmsCouponProductCategoryRelation, self).__init__(**kwargs)
 
 
-		class SmsCouponproductRelation(BaseObj):
+		class SmsCouponProductRelation(BaseObj):
 			""" None"""
 			def __init__(self,**kwargs):
 				self.couponId = None
@@ -65,7 +65,7 @@ class CreateCouponApi(BaseOrderManageService):
 				self.productId = None
 				self.productName = None
 				self.productSn = None
-				super(CreateCouponApi.Body.SmsCouponproductRelation, self).__init__(**kwargs)
+				super(CreateCouponApi.Body.SmsCouponProductRelation, self).__init__(**kwargs)
 
 	class Resp(object):
 		def __init__(self):

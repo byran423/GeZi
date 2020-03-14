@@ -22,6 +22,7 @@ class RequestUtil(object):
 		json_body = obj_to_json(self.body) if self.body else None
 		print_json(self.body.__dict__)
 		resp_act = self.__send_request(data=json_body)
+		# print(str(resp_act))
 		self.resp = json_to_obj(resp_act)
 		return self
 
