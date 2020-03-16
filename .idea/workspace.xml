@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="lesson5 complete">
-      <change afterPath="$PROJECT_DIR$/lesson6/线程.py" afterDir="false" />
+    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="lesson6 part1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -222,7 +221,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -244,7 +243,7 @@
       <workItem from="1583109763700" duration="3219000" />
       <workItem from="1583155892365" duration="34776000" />
       <workItem from="1583551871229" duration="7704000" />
-      <workItem from="1584085140583" duration="2217000" />
+      <workItem from="1584085140583" duration="2670000" />
     </task>
     <task id="LOCAL-00001" summary="part5_1">
       <created>1582554532812</created>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584149262813</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson6 part1">
+      <created>1584364358021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584364358021</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +306,8 @@
     <MESSAGE value="lesson4 part4 完结" />
     <MESSAGE value="lesson4 part5 接口返回400" />
     <MESSAGE value="lesson5 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson5 complete" />
+    <MESSAGE value="lesson6 part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson6 part1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582554449867">
@@ -315,10 +322,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="397" y="277" width="725" height="602" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1583639820593" />
-    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1584149262224">
+    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1584364440096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584149262224" />
+    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584364440096" />
     <state width="828" height="466" key="DebuggerActiveHint" timestamp="1583244885103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -364,10 +371,10 @@
     </state>
     <state width="1398" height="262" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583649680033" />
     <state width="1398" height="262" key="GridCell.Tab.1.right/0.23.1440.840@0.23.1440.840" timestamp="1584085083853" />
-    <state x="244" y="63" key="SettingsEditor" timestamp="1583203330855">
+    <state x="244" y="63" key="SettingsEditor" timestamp="1584368535511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="244" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583203330855" />
+    <state x="244" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584368535511" />
     <state x="244" y="82" key="SettingsEditor/0.23.1440.840@0.23.1440.840" timestamp="1581870438798" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1583244674893">
       <screen x="0" y="0" width="1440" height="900" />
