@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="lesson4 part5 接口返回400">
-      <change afterPath="$PROJECT_DIR$/lesson5/装饰器/带参数的装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/装饰器/日志装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/装饰器/普通装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/装饰器/类装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/闭包/demo_1.py" afterDir="false" />
+    <list default="true" id="7861a834-8947-4177-aba9-0dd84ea81b8a" name="Default" comment="lesson5 complete">
+      <change afterPath="$PROJECT_DIR$/lesson6/线程.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/part3/RequestUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part3/RequestUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/part4/CreateCouponApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part4/CreateCouponApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/part5/order_service/api/controller/Adminlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part5/order_service/api/controller/AdminLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/part5/order_service/api/controller/CreateCouponApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part5/order_service/api/controller/CreateCouponApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/part5/order_service/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/part5/order_service/auth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +63,7 @@
       <recent name="$PROJECT_DIR$/lesson4/part5/order_service" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo_1">
+  <component name="RunManager" selected="Python.线程">
     <configuration name="普通装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="T1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +78,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson5/装饰器/普通装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="线程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson6/线程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,9 +199,11 @@
     <list>
       <item itemvalue="Python.demo_1" />
       <item itemvalue="Python.普通装饰器" />
+      <item itemvalue="Python.线程" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.线程" />
         <item itemvalue="Python.普通装饰器" />
         <item itemvalue="Python.demo_1" />
       </list>
@@ -229,7 +244,7 @@
       <workItem from="1583109763700" duration="3219000" />
       <workItem from="1583155892365" duration="34776000" />
       <workItem from="1583551871229" duration="7704000" />
-      <workItem from="1584085140583" duration="282000" />
+      <workItem from="1584085140583" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="part5_1">
       <created>1582554532812</created>
@@ -266,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583247604000</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson5 complete">
+      <created>1584149262812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584149262813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +299,8 @@
     <MESSAGE value="lesson4 part2 完结&#10;lesson4 part3_1" />
     <MESSAGE value="lesson4 part4 完结" />
     <MESSAGE value="lesson4 part5 接口返回400" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4 part5 接口返回400" />
+    <MESSAGE value="lesson5 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5 complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582554449867">
@@ -292,34 +315,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="397" y="277" width="725" height="602" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1583639820593" />
-    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1583247603692">
+    <state x="394" y="54" key="CommitChangelistDialog2" timestamp="1584149262224">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583247603692" />
+    <state x="394" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584149262224" />
     <state width="828" height="466" key="DebuggerActiveHint" timestamp="1583244885103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="828" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1583244885103" />
     <state width="826" height="466" key="DebuggerActiveHint/0.23.1440.840@0.23.1440.840" timestamp="1582208723763" />
-    <state width="1398" height="262" key="GridCell.Tab.0.bottom" timestamp="1584085083850">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1584364342305">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583905531991" />
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584364342305" />
     <state width="1398" height="262" key="GridCell.Tab.0.bottom/0.23.1440.840@0.23.1440.840" timestamp="1584085083850" />
-    <state width="1398" height="262" key="GridCell.Tab.0.center" timestamp="1584085083849">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1584364342304">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583905531990" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584364342304" />
     <state width="1398" height="262" key="GridCell.Tab.0.center/0.23.1440.840@0.23.1440.840" timestamp="1584085083849" />
-    <state width="1398" height="262" key="GridCell.Tab.0.left" timestamp="1584085083847">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1584364342304">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583905531988" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584364342304" />
     <state width="1398" height="262" key="GridCell.Tab.0.left/0.23.1440.840@0.23.1440.840" timestamp="1584085083847" />
-    <state width="1398" height="262" key="GridCell.Tab.0.right" timestamp="1584085083849">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1584364342305">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583905531990" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584364342305" />
     <state width="1398" height="262" key="GridCell.Tab.0.right/0.23.1440.840@0.23.1440.840" timestamp="1584085083849" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1584085083854">
       <screen x="0" y="23" width="1440" height="840" />
@@ -390,7 +413,7 @@
     <SUITE FILE_PATH="coverage/T1$part3.coverage" NAME="part3 Coverage Results" MODIFIED="1582285854132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
     <SUITE FILE_PATH="coverage/T1$RequestUtil.coverage" NAME="RequestUtil Coverage Results" MODIFIED="1583223241762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4/part5/common" />
     <SUITE FILE_PATH="coverage/T1$t_create_conpon_api.coverage" NAME="t_create_conpon_api Coverage Results" MODIFIED="1583302353767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4/part5" />
-    <SUITE FILE_PATH="coverage/T1$.coverage" NAME="类装饰器 Coverage Results" MODIFIED="1583905531978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5/装饰器" />
+    <SUITE FILE_PATH="coverage/T1$.coverage" NAME="线程 Coverage Results" MODIFIED="1584151206526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson6" />
     <SUITE FILE_PATH="coverage/T1$Adminlogin.coverage" NAME="Adminlogin Coverage Results" MODIFIED="1583214146513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4/part3" />
   </component>
 </project>
